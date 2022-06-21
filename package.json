@@ -3,13 +3,13 @@
     "name": "cordova-plugin-hello-kotlin",
     "cordova_name": "Hello Kotlin",
     "description": "",
-    "author": "Dave Alden",
+    "author": "Andres Zsogon",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dpa99c/cordova-plugin-hello-kotlin.git"
+        "url": "https://github.com/andreszs/cordova-plugin-hello-kotlin.git"
     },
-    "issue": "https://github.com/dpa99c/cordova-plugin-hello-kotlin/issues",
+    "issue": "https://github.com/andreszs/cordova-plugin-hello-kotlin/issues",
     "cordova": {
         "id": "cordova-plugin-hello-kotlin",
         "platforms": [
@@ -28,8 +28,8 @@
     "engines": {
         "cordovaDependencies": {
             "1.0.0": {
-                "cordova-android": ">=7.0.0",
-                "cordova": ">=7.1.0"
+                "cordova-android": ">=9.0.0",
+                "cordova": ">=9.0.0"
             }
         }
     }
