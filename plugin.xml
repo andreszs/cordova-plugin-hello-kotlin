@@ -3,7 +3,7 @@
 	xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-hello-kotlin"
-        version="1.0.0">
+        version="0.1.0">
 
   <name>Hello Kotlin</name>
 	<author email="andreszs@gihub.com">Andres Zsögön</author>
