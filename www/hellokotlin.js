@@ -1,7 +1,11 @@
-/*global cordova, module*/
+"use strict";
 
-module.exports = {
-    hello: function (input, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "HelloKotlin", "hello", [input]);
+var exec = require('cordova/exec');
+
+var HelloKotlin = {
+	hello: function (args, successCallback, errorCallback) {
+		exec(successCallback, errorCallback, "HelloKotlin", "hello", [args]);
     }
 };
+
+module.exports = HelloKotlin;
